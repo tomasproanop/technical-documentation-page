@@ -1,0 +1,42 @@
+#main-doc {
+  font-family: sans-serif;
+}
+.main-section {
+  font-size: 15px;
+  margin-left: 300px;
+}
+nav {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  bottom: 0;
+  overflow-x: hidden; 
+  z-index: 1;
+  display: flex;
+flex-direction: column;
+  overflow-y: scroll;
+  border-right: 5px solid lightgrey;
+}
+.nav-link {
+  padding: 20px;
+  
+}
+
+header {
+  font-weight: bold;
+  font-size: 20px;
+}
+.a {
+  
+}
+section {
+  padding: 10px;
+  line-height: 25px;
+}
+code {
+  background-color: #F5F5F5;
+  padding: 15px;
+}
+@media (prefers-color-scheme: dark) {
+  body { background: #1e1e1e; color: white; }
+}
